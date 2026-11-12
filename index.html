@@ -13,13 +13,12 @@
     h2 { font-size: 1.15rem; margin: 1.75rem 0 .5rem; }
     p, li { margin: 0 0 .85rem; }
     ul { padding-left: 1.2rem; }
-    .note { background: #eef3fb; border-radius: 10px; padding: 1rem 1.1rem; }
   </style>
 </head>
 <body>
   <main>
     <h1>Tab to TV privacy policy</h1>
-    <p class="updated">Last updated: November 5, 2026</p>
+    <p class="updated">Last updated: November 11, 2026</p>
 
     <p>Tab to TV is a Chrome extension for classroom use. It lets a teacher show one browser tab on a classroom TV or external display and pause that picture.</p>
 
@@ -27,26 +26,24 @@
     <ul>
       <li>The title and icon of browser tabs, so it can show which tab is on the TV.</li>
       <li>A live video of the one tab the teacher chooses to show (video only, no tab audio).</li>
-      <li>If the teacher pauses when a tab is not being mirrored, a still snapshot of the browser window on that display.</li>
-      <li>Display layout information, so it can put the TV window on the correct screen.</li>
+      <li>Display information (screen names, sizes and layout), so it can find the TV and put the picture on the correct screen.</li>
     </ul>
 
     <h2>How it uses that information</h2>
-    <p>It uses this information only to provide those features on the same Chromebook. The live picture is shown fullscreen on the external display. A paused picture is held so students keep seeing a still frame. Tab titles and icons appear in the extension panel.</p>
+    <p>It uses this information only to provide those features on the same Chromebook. The live picture is shown fullscreen on the external display. When the teacher pauses a live tab, the last frame is held so students keep seeing a still picture. When the teacher pauses without showing a tab, the TV shows a pause screen that is built into the extension; nothing on the teacher's screen is captured. Tab titles and icons appear in the extension panel.</p>
 
     <h2>What it shares</h2>
     <p>It does not send this information to the developer, to Daviess County Public Schools servers, or to any other party. It does not include analytics, advertising, or remote code.</p>
 
     <h2>Where it is stored</h2>
-    <p>It is stored only on the Chromebook, in Chrome session storage. That data is not synced to a Google account. It is cleared when the teacher stops showing the tab, resumes from a snapshot, or ends the browser session.</p>
+    <p>Everything stays on the Chromebook and is not synced to a Google account. The live picture is never saved. Information about what is currently showing is kept in Chrome session storage and is cleared when the teacher stops showing, uses Stop everything, or ends the browser session.</p>
+    <p>If the teacher picks which screen is the TV, the extension remembers that choice (the screen's name and resolution) in Chrome local storage on that Chromebook, so it can pick the same TV next time. Only the most recent choices are kept, and they are removed when the extension is removed.</p>
 
     <h2>Limited use</h2>
     <p>Tab to TV uses this information only to provide its single purpose: showing one tab on the classroom TV and pausing it. It does not use the information for advertising or retargeting, and it does not transfer it to others except as required by law.</p>
 
     <h2>Contact</h2>
     <p>Questions about this policy or the extension can be sent to <strong>tony.gabbert@daviess.kyschools.us</strong>.</p>
-
-    
   </main>
 </body>
 </html>
